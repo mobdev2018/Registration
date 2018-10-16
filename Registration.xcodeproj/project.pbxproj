@@ -10,6 +10,7 @@
 		A2A10E4E2176716700CFA121 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2A10E4C2176716600CFA121 /* NunitoSans-SemiBold.ttf */; };
 		A2A10E4F2176716700CFA121 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2A10E4D2176716600CFA121 /* NunitoSans-Regular.ttf */; };
 		A2A10E512176717100CFA121 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A2A10E502176717100CFA121 /* background.png */; };
+		A2A10E5321767BF000CFA121 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2A10E5221767BF000CFA121 /* NunitoSans-Bold.ttf */; };
 		A2BAE0EE217659A500AB8381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAE0ED217659A500AB8381 /* AppDelegate.swift */; };
 		A2BAE0F0217659A500AB8381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAE0EF217659A500AB8381 /* ViewController.swift */; };
 		A2BAE0F6217659A600AB8381 /* Registration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2BAE0F4217659A600AB8381 /* Registration.xcdatamodeld */; };
@@ -25,6 +26,7 @@
 		A2A10E4C2176716600CFA121 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		A2A10E4D2176716600CFA121 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
 		A2A10E502176717100CFA121 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		A2A10E5221767BF000CFA121 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
 		A2BAE0EA217659A500AB8381 /* Registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Registration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BAE0ED217659A500AB8381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2BAE0EF217659A500AB8381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		A2A10E4B2176714000CFA121 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				A2A10E5221767BF000CFA121 /* NunitoSans-Bold.ttf */,
 				A2A10E4D2176716600CFA121 /* NunitoSans-Regular.ttf */,
 				A2A10E4C2176716600CFA121 /* NunitoSans-SemiBold.ttf */,
 			);
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2BAE10721766B7C00AB8381 /* Main.storyboard in Resources */,
+				A2A10E5321767BF000CFA121 /* NunitoSans-Bold.ttf in Resources */,
 				A2A10E512176717100CFA121 /* background.png in Resources */,
 				A2A10E4E2176716700CFA121 /* NunitoSans-SemiBold.ttf in Resources */,
 				A2A10E4F2176716700CFA121 /* NunitoSans-Regular.ttf in Resources */,
