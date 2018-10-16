@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2A10E4E2176716700CFA121 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2A10E4C2176716600CFA121 /* NunitoSans-SemiBold.ttf */; };
+		A2A10E4F2176716700CFA121 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2A10E4D2176716600CFA121 /* NunitoSans-Regular.ttf */; };
+		A2A10E512176717100CFA121 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A2A10E502176717100CFA121 /* background.png */; };
 		A2BAE0EE217659A500AB8381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAE0ED217659A500AB8381 /* AppDelegate.swift */; };
 		A2BAE0F0217659A500AB8381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BAE0EF217659A500AB8381 /* ViewController.swift */; };
 		A2BAE0F6217659A600AB8381 /* Registration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2BAE0F4217659A600AB8381 /* Registration.xcdatamodeld */; };
 		A2BAE0F8217659C200AB8381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BAE0F7217659C200AB8381 /* Assets.xcassets */; };
 		A2BAE0FB217659C200AB8381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BAE0F9217659C200AB8381 /* LaunchScreen.storyboard */; };
-		A2BAE1032176610100AB8381 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A2BAE1022176610000AB8381 /* images */; };
-		A2BAE105217661D300AB8381 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = A2BAE104217661D200AB8381 /* fonts */; };
 		A2BAE10721766B7C00AB8381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BAE10621766B7C00AB8381 /* Main.storyboard */; };
 		C2A8350C19FF1CA9AD498B69 /* Pods_Registration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0430D74EF90123CB3B532520 /* Pods_Registration.framework */; };
 /* End PBXBuildFile section */
@@ -21,6 +22,9 @@
 /* Begin PBXFileReference section */
 		0430D74EF90123CB3B532520 /* Pods_Registration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Registration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB1618844719CBB521498F3 /* Pods-Registration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Registration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Registration/Pods-Registration.debug.xcconfig"; sourceTree = "<group>"; };
+		A2A10E4C2176716600CFA121 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		A2A10E4D2176716600CFA121 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A2A10E502176717100CFA121 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		A2BAE0EA217659A500AB8381 /* Registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Registration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BAE0ED217659A500AB8381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2BAE0EF217659A500AB8381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,8 +32,6 @@
 		A2BAE0F7217659C200AB8381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2BAE0FA217659C200AB8381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2BAE0FC217659C200AB8381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2BAE1022176610000AB8381 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		A2BAE104217661D200AB8381 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		A2BAE10621766B7C00AB8381 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FAB6D1F4CC4C195209F9EBDC /* Pods-Registration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Registration.release.xcconfig"; path = "Pods/Target Support Files/Pods-Registration/Pods-Registration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A2A10E4A2176713800CFA121 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A2A10E502176717100CFA121 /* background.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A2A10E4B2176714000CFA121 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A2A10E4D2176716600CFA121 /* NunitoSans-Regular.ttf */,
+				A2A10E4C2176716600CFA121 /* NunitoSans-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		A2BAE0E1217659A500AB8381 = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +103,8 @@
 		A2BAE0EC217659A500AB8381 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
-				A2BAE104217661D200AB8381 /* fonts */,
-				A2BAE1022176610000AB8381 /* images */,
+				A2A10E4B2176714000CFA121 /* fonts */,
+				A2A10E4A2176713800CFA121 /* images */,
 				A2BAE0ED217659A500AB8381 /* AppDelegate.swift */,
 				A2BAE0EF217659A500AB8381 /* ViewController.swift */,
 				A2BAE0F7217659C200AB8381 /* Assets.xcassets */,
@@ -157,9 +176,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BAE1032176610100AB8381 /* images in Resources */,
 				A2BAE10721766B7C00AB8381 /* Main.storyboard in Resources */,
-				A2BAE105217661D300AB8381 /* fonts in Resources */,
+				A2A10E512176717100CFA121 /* background.png in Resources */,
+				A2A10E4E2176716700CFA121 /* NunitoSans-SemiBold.ttf in Resources */,
+				A2A10E4F2176716700CFA121 /* NunitoSans-Regular.ttf in Resources */,
 				A2BAE0FB217659C200AB8381 /* LaunchScreen.storyboard in Resources */,
 				A2BAE0F8217659C200AB8381 /* Assets.xcassets in Resources */,
 			);
