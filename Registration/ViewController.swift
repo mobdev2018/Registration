@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         
         let screenSize = UIScreen.main.bounds.size
         
+        var titleLabel = UILabel(frame: CGRect(x: 30, y: 100, width: screenSize.width, height: 26))
+        titleLabel.text = "Create New Account"
+        self.contentView.addSubview(titleLabel)
         
     }
 
